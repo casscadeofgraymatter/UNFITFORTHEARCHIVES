@@ -1,4 +1,4 @@
-# UNFIT FOR THE ARCHIVES | <strong>→ <a href="https://unfitforthearchives.static2.website/" target="_blank" rel="noopener noreferrer">Live Site</a></strong> &nbsp;|&nbsp; DNID Capstone '26
+# UNFIT FOR THE ARCHIVES <strong>→ <a href="https://unfitforthearchives.static2.website/" target="_blank" rel="noopener noreferrer">Live Site</a></strong> &nbsp;|&nbsp; DNID Capstone '26
 
 > *An exploration of sites, systems, and objects that are often excluded or erased from formal archives.*
 
