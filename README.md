@@ -32,7 +32,7 @@ Each section of the site examines a different institutional site of power and it
 |---|---|
 | 🏛️ **Prisons** | How carceral systems control visibility, identity, and narrative |
 | ⛺ **Camps** | Bureaucracy, displacement, and the suspension of rights |
-| 📖 **Books** | What is written, published, and taught — and what is deliberately omitted |
+| 📖 **Books** | What is written, published, taught, and what is deliberately omitted |
 | 🌍 **Empires** | How colonial power archives itself as inevitable and erases what it subsumes |
 | 💻 **Technological Systems** | Algorithms, data regimes, and the politics of digital legibility |
 | 🗄️ **Archives** | Archives as active constructions of authority, not neutral storage |
