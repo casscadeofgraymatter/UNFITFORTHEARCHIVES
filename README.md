@@ -56,6 +56,8 @@ Each section includes a purpose-built learning game designed to make difficult m
 ### Learn Cards
 Flippable flashcard-style modals in every section, surfacing key concepts and contextual facts for each topic.
 
+<img width="1067" height="509" alt="image" src="https://github.com/user-attachments/assets/2de35d2d-d5f4-41ae-b680-1931bd7f8977" />
+
 ### Flip Fact Cards
 At-a-glance statistics displayed as hover-flip cards (e.g., overcrowding rates, recidivism data, cost of incarceration), anchoring abstract themes into reality.
 
