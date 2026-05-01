@@ -130,7 +130,7 @@ The project is grounded in critical archival theory and critical theory more bro
 
 ## Course Context
 
-Created as a capstone project for the **Digital Network Information Design (DNID)** program, 2026. This project bridges archival studies, critical theory, and interactive web design & development to create an educational platform.
+Created as a capstone project for the **Digital Narrative & Interactive Design (DNID)** program, 2026. This project bridges archival studies, critical theory, and interactive web design & development to create an educational platform.
 
 ---
 
