@@ -1,13 +1,11 @@
-# UNFIT FOR THE ARCHIVES
+# UNFIT FOR THE ARCHIVES | <strong>→ <a href="https://unfitforthearchives.static2.website/" target="_blank" rel="noopener noreferrer">Live Site</a></strong> &nbsp;|&nbsp; DNID Capstone '26
 
 > *An exploration of sites, systems, and objects that are often excluded or erased from formal archives.*
 
-<strong>→ <a href="https://unfitforthearchives.static2.website/" target="_blank" rel="noopener noreferrer">Live Site</a></strong> &nbsp;|&nbsp; DNID Capstone '26
 ---
 
 <!-- 📸 SUGGESTED IMAGE: A screenshot of the homepage hero — the large "UNFIT FOR THE ARCHIVES" title over the main archive image (images/stock2.jpg). Crop to a wide banner ratio (~3:1). -->
 <img width="1129" height="700" alt="image" src="https://github.com/user-attachments/assets/383e9a59-3953-42b6-bd98-7e2f4f338d5d" />
-
 
 ---
 
