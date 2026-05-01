@@ -2,8 +2,7 @@
 
 > *An exploration of sites, systems, and objects that are often excluded or erased from formal archives.*
 
-**→ [Live Site](https://unfitforthearchives.static2.website/)** &nbsp;|&nbsp; DNID Capstone '26
-
+<strong>→ <a href="https://unfitforthearchives.static2.website/" target="_blank" rel="noopener noreferrer">Live Site</a></strong> &nbsp;|&nbsp; DNID Capstone '26
 ---
 
 <!-- 📸 SUGGESTED IMAGE: A screenshot of the homepage hero — the large "UNFIT FOR THE ARCHIVES" title over the main archive image (images/stock2.jpg). Crop to a wide banner ratio (~3:1). -->
