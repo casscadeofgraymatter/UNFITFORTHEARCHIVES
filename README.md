@@ -122,6 +122,7 @@ The project is grounded in critical archival theory and critical theory more bro
 ## Screenshots
 
 <img width="1079" height="486" alt="image" src="https://github.com/user-attachments/assets/14f3a10e-49c5-4a6f-843f-458b528fe1bc" />
+<br>
 <img width="1102" height="491" alt="Screenshot 2026-05-01 143201" src="https://github.com/user-attachments/assets/7494799f-8bca-4bdd-9b27-849d55e89474" />
 
 
