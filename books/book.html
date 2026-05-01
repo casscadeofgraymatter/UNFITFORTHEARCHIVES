@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfit for the Archives | Books</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+
+      <header class="site-header">
+        <div class="header-left">
+            <a href="../index.html" class="logo-small">UFTA</a>
+            <br>
+        </div>
+
+        <div class="header-right">
+            <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="navMenu" class="nav-buttons" aria-hidden="true">
+                <button class="nav-button" data-target="section-1" data-href="../prisons/prison.html">Prisons</button>
+                <button class="nav-button" data-target="section-2" data-href="../camps/camps.html">Camps</button>
+                <button class="nav-button" data-target="section-3" data-href="../empires/empires.html">Empires</button>
+                <button class="nav-button" data-target="section-4" data-href="../books/book.html">Books</button>
+                <button class="nav-button" data-target="section-5" data-href="../technological_systems/techsystems.html">Technological Systems</button>
+                <button class="nav-button" data-target="section-6" data-href="../archives/archive.html">Archives</button>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main class="main-layout">
+        <section class="intro">
+<!-- title -->
+            <h1 class="main-title">BOOKS</h1>
+<!-- description -->
+            <p class="intro-lead">
+                <span class="word">Books</span> <span class="word">shape</span> <span class="word">what</span> <span class="word">a</span> <span class="word">culture</span> <span class="word">remembers,</span> <span class="word">what</span> <span class="word">it</span> <span class="word">teaches,</span> <span class="word">and</span> <span class="word">what</span> <span class="word">it</span> <span class="word">forgets.</span> <span class="word">This</span> <span class="word">section</span> <span class="word">tracks</span> <span class="word">how</span> <span class="word">writing,</span> <span class="word">publishing,</span> <span class="word">and</span> <span class="word">circulation</span> <span class="word">decide</span> <span class="word">whose</span> <span class="word">stories</span> <span class="word">become</span> <span class="word">official</span> <span class="word">history.</span>
+            </p>
+            <br>
+            <br>
+
+            <div class="main-layout-tag">
+                <p>Narration</p>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="quiz-buttons-row">
+                <button class="quiz-button" id="quiz-button" data-title="Quiz Game" data-section="books" style="cursor:pointer;">LEARN</button>
+                <button class="quiz-button orange" id="game-button" data-title="The Censor's Desk" style="cursor:pointer;">THE CENSOR'S DESK </button>
+            </div>
+            <p class="hover-hint">play games to help you learn more about narration →</p>
+        </section>
+
+          <section class="divider">
+
+        </section>
+
+        <section>
+            <img class="main-image" src="../images/books/stock8.jpg" alt="main image of archive" style="width: 400px; height: 400px;">
+        </section>
+
+
+        <!-- fact cards below main section -->
+        <section class="fact-cards">
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Authority</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Books carry authority and legitimize ideas across generations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Exclusion</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Decisions about what is written, published, and translated shape cultural memory.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Circulation</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Books circulate stories and knowledge across time and space.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Memory</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Books preserve knowledge but also determine what is remembered or forgotten.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- container for subpage content and buttons -->
+        <section class="subpage-container">
+            <div id="subpage-content" class="subpage-content">
+                <!-- embedded sections, only lived shown by default -->
+                <details open id="structure-details">
+                    <summary>Structure of Reading</summary>
+                    <div class="subpage-section" id="structure">
+                        <p>Books are not passive objects. They are designed systems that determine how knowledge enters the world, who can access it, and under what conditions it is understood as legitimate. The physical and institutional structure of a book, its publisher, its price, its language, its distribution,shapes who reads it before a single word is absorbed.</p>
+                        <p>Michel Foucault's Discipline and Punish (1975) arrives at most readers through a university syllabus, a course pack, a library hold. That path is not incidental. Originally published in French and translated into English a decade later, the book's gradual adoption into academic curricula shows how ideas that challenge institutional power often reach audiences only after being filtered through the institutions they critique. The Church had its Index Librorum Prohibitorum, the official list of forbidden books maintained from 1559 to 1966, a document that now reads less as a record of danger and more as a map of what power feared most. The list itself is an archive of suppression, titles deemed threatening enough to name and condemn.</p>
+                        <p>Ibram X. Kendi's Stamped from the Beginning (2016) traces how racist ideas were not accidental or fringe but deliberately constructed and circulated through authoritative written texts, textbooks, legal documents, scientific literature, canonical history. The book is its own kind of counter-archive: a documented record of how written authority has been used as a weapon, and what it looks like to write back.</p>
+
+                         <div class="pdf-link-grid">
+                            <button type="button" class="pdf-open-trigger" data-title="(1664) Index Librorum Prohibitorum" data-source-label="Internet Archive" data-source-url="https://archive.org/details/case_wing_z1020_i39_1664/page/n7/mode/1up" data-pdf="../images/books/structure/index_librorum_prohibitorum.pdf">Index Librorum Prohibitorum (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="American Library Association" data-pdf="../images/books/structure/state-of-americas-libraries-report-2025-WEB.pdf" data-source-label="American Library Association: Snapshot of 2024" data-source-url="https://www.ala.org/news/state-americas-libraries-report-2025">American Library Association: Snapshot of 2024 (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Ibram X. Kendi's Stamped from the Beginning (2016)" data-source-label="Ibram X. Kendi's Stamped from the Beginning (2016)" data-pdf="../images/books/structure/stampedfromthebeginning.pdf">Stamped from the Beginning (PDF)</button>
+                        </div>
+                    </div>
+                </details>
+                <details id="interpretations-details">
+                    <summary>Systems of Interpretations</summary>
+                    <div class="subpage-section" id="interpretations">
+                        <p>Who decides what a book means is as consequential as who writes it. Curricula, canon lists, review culture, academic syllabi, these all function as interpretive systems that elevate certain texts and render others marginal. A book can exist and still be effectively silenced if it is never assigned, never reviewed, never translated, never stocked.</p>
+                        
+                        <div class="audio-embeds">
+                            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/1c7oXHjLjVC1oaH9Mf0aKL?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/3oufFsn8m0hSXP0YRhMCIL?utm_source=generator&theme=0&t=135" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+
+                         <p>Ta-Nehisi Coates's "The Case for Reparations," published in The Atlantic in 2014, became one of the most-read pieces of American journalism of the decade. It did not introduce new historical facts. The history of redlining, contract buying, and deliberate wealth extraction from Black communities was documented and available before Coates wrote a word of it. What the piece did was reframe that history within a publication with enough institutional credibility to make it legible to a broad audience. The same argument, made in a community newsletter or a limited-circulation academic journal, would not have reached the same rooms. Interpretation is inseparable from access.</p>
+                        <p>George Orwell's "Why I Write" (1946) makes the stakes of this plain. Orwell argues that all writing is political, that the impulse to appear objective is itself a political act, and that controlling language is one of the most durable forms of power available to any institution. The FBI understood this. Under COINTELPRO, the bureau maintained surveillance files on James Baldwin, Toni Morrison, and Richard Wright, monitoring not just their political activity but their words. Those files, bureaucratic documents tracking literary figures, sit in a striking juxtaposition with the books themselves: one produced to illuminate, the other produced to contain.</p>
+                    </div>
+                </details>
+                <details id="circuits-details">
+                    <summary>Circuits of Circulation</summary>
+                    <div class="subpage-section" id="circuits">
+                        <p>A book that is written but not published is a manuscript. A book that is published but not distributed is a warehouse. A book that is distributed but banned is contraband. Each stage in the circuit of circulation is a point where institutional power can intervene, quietly or explicitly, to shape what reaches readers and what does not.</p>
+                        
+                        <div class="video-embed">
+                            <iframe width="520" height="315" src="https://www.youtube.com/embed/islb8Baq5Gg?si=o8qvMFL8N0v3vY6-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
+                            <iframe width="520" height="315" src="https://www.youtube.com/embed/XsNPlBBi1IE?si=CMz1OD1IjaFO-her&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                   
+                        </div>
+
+                        <p>George Takei's graphic memoir They Called Us Enemy (2019) documents the forced incarceration of Japanese Americans through a form, the graphic novel, that institutions have historically treated as less serious, less archival, less credible than prose. That dismissal is part of what Takei is working against. The book reaches audiences, including younger readers and people who might not pick up a conventional memoir, precisely because of its form. It also raises a genuine archival question: when institutions decide which formats count as legitimate testimony, what kinds of memory get preserved and what kinds get set aside as too informal, too illustrated, too popular to count?</p>
+                        <p>Michelle Alexander's The New Jim Crow (2010) spent more than three years on the bestseller list, but its path there started well outside mainstream institutions. It moved first through churches, legal aid offices, and prison reading programs, through communities directly experiencing what the book describes, before it crossed into wider visibility. That circuit matters. Counter-archival knowledge often travels through informal networks for years before institutional recognition arrives. Sometimes it never does. The American Library Association's Banned Books Week campaigns make visible the books that institutions have tried to stop at this exact stage: not by refusing to publish them, but by removing them after the fact, from school libraries, public shelves, and prison collections.</p>
+                    </div>
+                </details>
+                <details id="embodied-details">
+                    <summary>Embodied Reading</summary>
+                    <div class="subpage-section" id="embodied">
+                        <p>Reading is not only an intellectual act. It is a physical one, shaped by where a person is, what they have access to, and what is at stake for them when they encounter a particular text. A book read in a university library, a book read on a phone in a waiting room, and a book read in a prison cell are three different experiences, not because the words change, but because the body receiving them does.</p>
+                        <p>Frederick Douglass understood this as well as anyone has. His Narrative of the Life of Frederick Douglass (1845) was not only a testimony. It was a provocation. Writing it was illegal. Publishing it was dangerous. Circulating it was an act of direct defiance against a system that understood, with complete clarity, that literacy and self-authorship were threats to the structures of enslavement. The manuscript pages of that book carry a weight that goes beyond their content. They are evidence of someone claiming the right to be the author of his own history at a moment when that right was being violently denied.</p>
+                        
+                        <p><strong>Primary Excerpts:</strong></p>
+
+                       <div class="primary-excerpts-text" id="resistance-quote-list">
+                            <blockquote class="excerpt-quote">
+                                <p>"They came because they wished to learn. Their minds had been starved by their cruel masters. They had been shut up in mental darkness. I taught them, because it was the delight of my soul to be doing something that looked like bettering the condition of my race."</p>
+                                <cite>Narrative of the Life of Frederick Douglass, Frederick Douglass, 1845</cite>
+                            </blockquote>
+                            <blockquote class="excerpt-quote">
+                                <p>"The truth of the matter is, your stories are worth sharing even if you feel like they’ve been told thousands of times before. 
+                                    The narratives of the world are numberless and each human experience shares a distinct perspective of that world."</p>
+                                <cite>Long River Review, UConn's Literary & Arts Magazine, Jess Gallagher, 2022</cite>
+                            </blockquote> 
+                        </div>
+
+                        <p>That logic has not disappeared. More than 20,000 books are currently banned from Florida state prison libraries. Texas and Arizona maintain their own lists. The titles are not random: works on Black history, legal rights, mental health, and incarceration itself appear repeatedly. The ban lists are themselves a kind of archive, a documented record of what the institution considers threatening enough to remove. To restrict what a person can read is to restrict how they can understand their situation, their history, and their rights. "<span style="color: rgba(240, 150, 4, 0.85); font-weight: 600;">Decolonising the Archive</span>", a growing body of scholarship across archival studies, asks whose way of knowing gets treated as a source and whose gets treated as a subject. Inside a prison library, that question is not theoretical.</p>
+
+                        <div class="resource-link-grid">
+                            <a class="resource-link-button" href="https://www.decolonisingthearchive.com/" target="_blank" rel="noopener noreferrer">Decolonising the Archive</a>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <div class="continue-next-section">
+        <a class="continue-button" href="../technological_systems/techsystems.html">CONTINUE TO NEXT SECTION</a>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="footer-title" style="color: rgba(240, 150, 4, 0.85);"><strong>UNFIT FOR THE ARCHIVES</strong></div>
+            <br>
+            <div class="tldr">Investigates how institutional systems, technology, and archives shape memory, power, and cultural authority.</div>
+            <div class="tldr">The project looks into the ways that formal systems like books, prisons, camps, bureaucratic records, and</div>
+            <div class="tldr">technological infrastructures are used to create, preserve, suppress, or erase histories.</div>
+            <br>
+        </div>
+        <div class="footer-right">
+            <br>
+            <button class="footer-link" data-modal="about">About</button>
+            <button class="footer-link" data-modal="bibliography">Bibliography</button>
+            <button class="footer-link" data-modal="ethical">Ethical note</button>
+        </div>
+    </footer>
+
+<!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+</body>
+</html>

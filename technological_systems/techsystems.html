@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfit for the Archives | Technological Systems</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+
+      <header class="site-header">
+        <div class="header-left">
+            <a href="../index.html" class="logo-small">UFTA</a>
+            <br>
+        </div>
+
+        <div class="header-right">
+            <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="navMenu" class="nav-buttons" aria-hidden="true">
+                <button class="nav-button" data-target="section-1" data-href="../prisons/prison.html">Prisons</button>
+                <button class="nav-button" data-target="section-2" data-href="../camps/camps.html">Camps</button>
+                <button class="nav-button" data-target="section-3" data-href="../empires/empires.html">Empires</button>
+                <button class="nav-button" data-target="section-4" data-href="../books/book.html">Books</button>
+                <button class="nav-button" data-target="section-5" data-href="../technological_systems/techsystems.html">Technological Systems</button>
+                <button class="nav-button" data-target="section-6" data-href="../archives/archive.html">Archives</button>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main class="main-layout">
+        <section class="intro">
+<!-- title -->
+            <h1 class="main-title" style="font-size: 75px;">TECHNOLOGICAL SYSTEMS</h1>
+<!-- description -->
+            <p class="intro-lead">
+                <span class="word">Technological</span> <span class="word">systems</span> <span class="word">sort</span> <span class="word">people</span> <span class="word">through</span> <span class="word">data,</span> <span class="word">interfaces,</span> <span class="word">and</span> <span class="word">automation</span> <span class="word">that</span> <span class="word">appear</span> <span class="word">neutral.</span> <span class="word">This</span> <span class="word">section</span> <span class="word">examines</span> <span class="word">how</span> <span class="word">digital</span> <span class="word">infrastructures</span> <span class="word">govern</span> <span class="word">visibility,</span> <span class="word">memory,</span> <span class="word">and</span> <span class="word">control.</span>
+            </p>
+            <br>
+            <br>
+
+            <div class="main-layout-tag">
+                <p>Surveillance</p>
+            </div>
+            <br>
+            <br>
+            <div class="quiz-buttons-row">
+                <button class="quiz-button" id="quiz-button" data-title="Quiz Game" data-section="tech" style="cursor:pointer;">LEARN</button>
+                <button class="quiz-button orange" id="game-button" data-title="GAME" style="cursor:pointer;">THE AUDIT</button>
+            </div>
+            <p class="hover-hint">play games to help you learn more about computation →</p>
+        </section>
+
+          <section class="divider">
+
+        </section>
+
+        <section>
+            <img class="main-image" src="../images/techsys/stock10.jpg" alt="main image of archive" style="width: 400px; height: 400px;">
+        </section>
+
+        <!-- fact cards below main section -->
+        <section class="fact-cards">
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Computation</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Technological systems process and analyze vast amounts of data to make decisions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Design</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>The design of technology influences what is remembered and who is visible.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Visibility</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Algorithms determine visibility in digital spaces, shaping public discourse.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Forgetting</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Technology can facilitate forgetting through data deletion or algorithmic obscurity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- container for subpage content and buttons -->
+        <section class="subpage-container">
+            <div id="subpage-content" class="subpage-content">
+                <!-- embedded sections, only lived shown by default -->
+                <details open id="protocols-details">
+                    <summary>Protocols, Pipelines, & Labor</summary>
+                    <div class="subpage-section" id="protocols">
+                        <p>Every technological system is built by someone. That fact tends to disappear once the system is running. 
+                            The interface presents itself as neutral, functional, self-evident, as if the choices encoded in it were not choices at all but simply the way things work. 
+                            What gets obscured is the pipeline underneath: the decisions about what data to collect, how to label it, whose labor to use, and what gets discarded before the output is produced. 
+                            The pipeline is where power lives, and it is almost always invisible to the person the system is being run on.</p>                        
+                        <p>Kate Crawford's Atlas of AI (2021) begins not with code but with lithium. 
+                            The extraction of minerals required to manufacture the physical infrastructure of artificial intelligence, the servers, the chips, the batteries, takes place in some of the most environmentally damaged and labor-exploited regions on earth. 
+                            Crawford argues that AI is not a technology that floats above material reality but one that depends on it, and that the supply chain of computation reproduces the same circuits of extraction that Eric Williams documented in the transatlantic slave economy. 
+                            The cloud has a mine at one end and a data center consuming the electricity output of a mid-size city at the other. Neither is visible in the interface.</p>
+                        <iframe width="520" height="315" src="https://www.youtube.com/embed/KcefG-0InLE?si=U86Gq2t1z2v_TXDT&amp;start=87" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="520" height="315" src="https://www.youtube.com/embed/Cn8HBj8QAbk?si=u2S48iTgnX9t1O0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <p>The labor embedded in machine learning systems is an extension of the same logic. 
+                            Content moderation, the work of reviewing images and text flagged by automated systems, is outsourced predominantly to workers in Kenya, the Philippines, and India, often at piece rates of less than two dollars an hour. 
+                            The workers exposed to the most psychologically damaging content on the internet are the least compensated and the least visible. 
+                            Time's 2023 investigation into OpenAI's use of Kenyan workers to label harmful content documented the toll of this arrangement: workers required to read and categorize descriptions of child abuse, mass violence, and torture, with minimal psychological support and no path to permanence. 
+                            The AI that emerges from this labor presents itself as a product of computation. It is also a product of human exposure to harm at industrial scale.</p>
+                            
+                        <div class="resource-link-grid">
+                            <a class="resource-link-button" href="https://www.ox.ac.uk/news/features/hidden-cost-ai-conversation-professor-mark-graham" target="_blank" rel="noopener noreferrer">Oxford Feature: The Hidden Cost of AI</a>
+                            <a class="resource-link-button" href="https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai" target="_blank" rel="noopener noreferrer">The Guardian: The Human Toll of AI Chatbot Training</a>
+                        </div>
+
+                        <p>Safiya Umoja Noble's Algorithms of Oppression (2018) traces how these embedded labor decisions produce outputs that are not neutral. 
+                            Noble documents how Google's search results, generated through an algorithm that processes decisions made by engineers and weighted by advertising revenue, returned racist and sexist results for searches involving Black women for years, 
+                            not because of individual prejudice at any single point in the pipeline, but because of the accumulated effect of decisions made across it. 
+                            The protocol does not have opinions. But it was built by people who did, operating inside institutions that did, and it runs on data produced by a society that does. 
+                            Neutrality is a design claim, not a technical reality.</p>
+                    </div>
+                </details>
+                <details id="systems-details">
+                    <summary>Systems & Control</summary>
+                    <div class="subpage-section" id="systems">
+                        <p>Technological systems don't only process information. They organize people. The administrative logic that Foucault identified in prisons and hospitals, the arrangement of bodies in space, the assignment of identities through official categories, the production of knowledge about populations as a precondition for governing them, has migrated into digital infrastructure with an efficiency that physical bureaucracy could never achieve. A database can process more people in a second than a clerk could in a year, and the decisions it makes feel, to the people subject to them, like facts rather than judgments.</p>                        
+                        <p>The COMPAS algorithm, Correctional Offender Management Profiling for Alternative Sanctions, was used across the United States criminal justice system to predict the likelihood that a defendant would reoffend, and to inform sentencing, parole, and bail decisions. A 2016 ProPublica investigation found that COMPAS systematically rated Black defendants as higher risk than white defendants with equivalent criminal histories. Northpointe, the company that produced it, refused to disclose the algorithm on grounds of proprietary protection. A person's liberty was being determined by a system no one could inspect, and the system's designers had the legal right to keep it that way. The opacity that made COMPAS a business asset also made accountability structurally impossible.</p>
+                        <div class="pdf-link-grid">
+                            <button type="button" class="pdf-open-trigger" data-title="State v. Loomis" data-pdf="../images/techsys/systemsofcontrol/statev.loomis.pdf" data-source-label="Recent Cases: State v. Loomis" data-source-url="https://harvardlawreview.org/print/vol-130/state-v-loomis/">State v. Loomis (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Algorithms of Oppression" data-pdf="../images/techsys/systemsofcontrol/algorithmsofoppression.pdf" data-source-label="Safiya Umoja Noble's Algorithms of Oppression" data-source-url="https://datasociety.net/library/safiya-umoja-noble-algorithms-of-oppression/">Algorithms of Oppression (PDF)</button>
+                        </div>
+
+                        <p>Virginia Eubanks's Automating Inequality (2018) documents the same pattern across social services. The Allegheny Family Screening Tool, deployed in Pittsburgh to predict child abuse risk, drew heavily on data from families already in contact with social services, which meant it disproportionately flagged poor families, who use public services at higher rates than wealthy families experiencing equivalent conditions. The algorithm did not create this disparity; it inherited it from the data. But it transformed a structural inequality into an individual risk score, giving it the appearance of an objective finding. Eubanks calls this the digital poorhouse: a set of automated systems that surveil, sort, and punish the poor with a precision and scale that older bureaucracies could not manage.</p>
+                        
+                        <div class="pdf-link-grid">
+                            <button type="button" class="pdf-open-trigger" data-title="Surveillance Capitalism" data-pdf="../images/techsys/systemsofcontrol/surveillancecapitalism.pdf" data-source-label="Shoshana Zuboff's The Age of Surveillance Capitalism" data-source-url="https://shoshanazuboff.com/book/">The Age of Surveillance Capitalism (PDF)</button>
+                        </div>
+                        <p>Shoshana Zuboff's The Age of Surveillance Capitalism (2019) extends this analysis to the private sector. Zuboff argues that the dominant business model of the internet era is not the sale of products but the extraction and sale of behavioral data, what she calls behavioral surplus, collected without meaningful consent and used to predict and modify human behavior at scale. The systems built on this model do not merely observe. They intervene, using the data they have collected to adjust what a person sees, hears, and is offered until their behavior aligns with the outcomes the platform has been paid to produce. Control, in this model, does not require force. It requires a sufficiently detailed map of a person's habits, fears, and desires, and a sufficiently fast system for acting on that map before the person knows it is being read.</p>
+                    </div>
+                </details>
+                <details id="datafication-details">
+                    <summary>Datafication Regimes</summary>
+                    <div class="subpage-section" id="datafication">
+                        <p>To be datafied is to be made legible to a system that was not designed with you in mind. The act of converting a person into a data point requires choices, about what to measure, how to categorize it, what to treat as significant and what to discard. Those choices produce a record, and that record then becomes the basis for decisions about housing, credit, employment, healthcare, and movement. The record is not the person. But in the systems that consume it, the record is often all that exists.</p>                        
+                        <p>The credit score is one of the oldest and most consequential datafication systems in American life. Developed throughout the 20th century and standardized as the FICO score in 1989, it converts a person's financial history into a three-digit number that determines access to loans, rental housing, and in some states, employment. The categories used to calculate the score, payment history, length of credit history, types of credit held, encode advantages that accrue along racial and class lines. People without credit histories are not people without financial responsibility; they are people whose financial activity has not been datafied in forms the system recognizes. The score treats its own blind spots as the person's deficiency.</p>
+                        
+                        <div class="pdf-link-grid">
+                            <button type="button" class="pdf-open-trigger" data-title="(2018) Design Research Society 2018 Catalyst" data-source-label="University of Limerick" data-source-url="https://www.designresearchsociety.org/articles/drs-biennial-confrence-2018-limerick-ireand" data-pdf="../images/techsys/datificationregimes/regimesofdigitalquantification.pdf">Regimes of Digital Quantification: Making Data-Driven Desisions? (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Department of Homeland Security" data-pdf="../images/techsys/datificationregimes/rolenoflylist.pdf" data-source-label="Department of Homeland Security" data-source-url="https://www.oig.dhs.gov/">Role of the No Fly and Selectee Lists in Securing Commercial Aviation (PDF)</button>
+                        </div>
+
+                        <p>China's Social Credit System is the most discussed contemporary example of a government-administered datafication regime, but the framing that circulates in Western media, a single score controlling all aspects of life, is significantly overstated. What exists in practice is a set of fragmented, often municipal systems that share a logic: the conversion of behavior into administrative categories that determine access to services, travel, and public participation. The significant question raised by this system is not unique to China. It is the same question raised by the COMPAS algorithm, the Allegheny Family Screening Tool, and the No Fly List: who decides what behaviors produce what categories, under what accountability, and with what possibility of correction when the data is wrong. The answer, in most datafication regimes, is: the institution that built the system, with limited accountability, and with correction processes that are designed to be difficult.</p>
+                        <p>Ruha Benjamin's Race After Technology (2019) introduces the concept of the New Jim Code: the embedding of racial hierarchy into the design of technical systems in ways that reproduce discrimination while appearing race-neutral. Benjamin documents how facial recognition systems trained predominantly on lighter-skinned faces produce error rates for darker-skinned women that are as much as 34 percentage points higher than for lighter-skinned men, a finding documented by MIT researcher Joy Buolamwini in her Gender Shades project. The data set is the archive. When the archive is incomplete, when it has systematically underrepresented certain populations because those populations were not the intended subjects of the original collection, the system built on it does not fill in the gaps. It amplifies them.</p>                    
+                        <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/3f650174-e09a-4682-926a-7a99602e5df5?dark=true"></iframe>
+                    </div>
+                </details>
+                <details id="behavioral-details">
+                    <summary>User Discipline, & Behavioral Nudging</summary>
+                    <div class="subpage-section" id="behavioral">
+                        <p>Platforms don't present themselves as disciplinary systems. They present themselves as services, tools for connection, information, entertainment, commerce. The language of choice is everywhere: preferences, settings, personalization, your feed. What is less visible is the degree to which the choices available within a platform are structured to produce specific behaviors, and that the structure itself is the product of deliberate design decisions made in service of measurable outcomes that the user did not choose and may not share.</p>                        
+                        <p>The concept of the dark pattern, a user interface design choice that guides users toward actions that benefit the platform at the user's expense, was named by UX researcher Harry Brignull in 2010 and has since been documented across nearly every major consumer technology platform. Cookie consent banners that make rejection harder than acceptance. Subscription cancellation flows designed to maximize abandonment. Notification systems calibrated to re-engage users at the moment of lowest resistance. These are not accidents of design. They are engineering decisions, and in documented cases, they are A/B tested against user populations to confirm that they work. The interface that appears to serve the user is frequently an instrument for extracting something from them, time, attention, data, money, that the user did not intend to give.</p>
+
+                        <!-- placeholder thumbnail; clicking opens modal -->
+                        <img 
+                            class="excerpt-thumb" 
+                            src="../images/techsys/userdisciplineandbehavioralnudging/1.jpg" 
+                            alt="Excerpt thumbnail" 
+                            data-title="Staircase Wellness Nudge" 
+                            data-trans="A public-health staircase uses bright red risers and short persuasive statements to encourage people to take the stairs instead of the lift. The message frames stair-climbing as a small behavioral change with immediate benefits like increased blood flow, endorphin release, and reduced stress, showing how design can steer everyday decisions without forcing them.">
+                       
+                        <img 
+                            class="excerpt-thumb" 
+                            src="../images/techsys/userdisciplineandbehavioralnudging/2.jpg" 
+                            alt="Excerpt thumbnail" 
+                            data-title="Playful Consumption Nudge" 
+                            data-trans="This illustration highlights  how cheerful visual cues and reward language such as Eat Me and Yum Yum can make a choice feel more appealing. It reflects the logic of behavioral nudging in interface and advertising design, where attention, desire, and emotional framing are used to guide people toward a preferred action.">
+                        
+                        <img 
+                            class="excerpt-thumb" 
+                            src="../images/techsys/userdisciplineandbehavioralnudging/3.webp" 
+                            alt="Excerpt thumbnail" 
+                            data-title="Take the Stairs Campaign" 
+                            data-trans="A transit station is redesigned as a running track leading toward the stairs, turning exercise into a visible and inviting option next to the escalator. This is a classic behavioral nudge: instead of banning the easier choice, the environment is redesigned so that the healthier action feels more engaging and socially encouraged.">
+                       
+                        <img 
+                            class="excerpt-thumb" 
+                            src="../images/techsys/userdisciplineandbehavioralnudging/4.jpg" 
+                            alt="Excerpt thumbnail" 
+                            data-title="Cigarette Butt Voting Bin" 
+                            data-trans="This public bin invites smokers to cast their cigarette butts as votes in a playful poll, turning disposal into a small game. By combining humor, competition, and visible participation, the design nudges people toward the desired behavior of proper disposal rather than littering.">
+
+                        <img class="excerpt-thumb" 
+                            src="../images/techsys/userdisciplineandbehavioralnudging/5.jpg" 
+                            alt="Excerpt thumbnail" 
+                            data-title="The Varsity, Nudge Theory Infographic"
+                            data-trans="An infographic from The Varsity illustrates the principles of nudge theory, showing how small changes in decision-making environments can influence behavior.">
+
+                        <p>The attention economy, a term developed by economist Herbert Simon and extended by Tim Wu in The Attention Merchants (2016), describes a market structure in which human attention is the commodity being bought and sold. Platforms compete for time-on-screen not as a vanity metric but as the primary input in the advertising revenue model. The consequence is an arms race of engagement engineering: infinite scroll, autoplay, algorithmically curated feeds that prioritize content shown by research to generate high engagement, which tends to mean content that generates anxiety, outrage, and social comparison. Frances Haugen's 2021 disclosures of internal Facebook research showed that the company's own studies found Instagram worsened body image for a significant proportion of teenage girls, and that this finding was documented, discussed internally, and did not result in product changes. The archive of that decision exists. It is in the leaked documents.</p>
+                        <div class="pdf-link-grid">
+                            <button type="button" class="pdf-open-trigger" data-title="B.J. Fogg's Persuasive Technology" data-pdf="../images/techsys/userdisciplineandbehavioralnudging/persuasivetechnology.pdf" data-source-label="B.J. Fogg's Persuasive Technology" data-source-url="https://harvardlawreview.org/print/vol-130/state-v-loomis/">B.J. Fogg's Persuasive Technology (PDF)</button>
+                        </div>
+                        <p>B.J. Fogg's Persuasive Technology (2003), developed at Stanford's Behavior Design Lab, codified the principles that now underlie much of consumer interface design: the use of motivation, ability, and triggers to produce specific behaviors at specific moments. Fogg's students went on to design products used by billions of people. The question his framework leaves open, and that technologists working in this space have been largely unwilling to engage, is the question of consent. Behavior design works precisely because it operates below the level of conscious deliberation. A person who knows they are being nudged can resist the nudge. The systems designed using these principles depend on most people not knowing. Michel Foucault described discipline as the exercise of power that does not need to announce itself. The notification that arrives at 7pm, calibrated by a model trained on your past engagement data to reach you at the moment you are most likely to open the app, is this kind of discipline. It does not look like power. It looks like your phone telling you something you wanted to know.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <div class="continue-next-section">
+        <a class="continue-button" href="../archives/archive.html">CONTINUE TO NEXT SECTION</a>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="footer-title" style="color: rgba(240, 150, 4, 0.85);"><strong>UNFIT FOR THE ARCHIVES</strong></div>
+            <br>
+            <div class="tldr">Investigates how institutional systems, technology, and archives shape memory, power, and cultural authority.</div>
+            <div class="tldr">The project looks into the ways that formal systems like books, prisons, camps, bureaucratic records, and</div>
+            <div class="tldr">technological infrastructures are used to create, preserve, suppress, or erase histories.</div>
+            <br>
+        </div>
+        <div class="footer-right">
+            <br>
+            <button class="footer-link" data-modal="about">About</button>
+            <button class="footer-link" data-modal="bibliography">Bibliography</button>
+            <button class="footer-link" data-modal="ethical">Ethical note</button>
+        </div>
+    </footer>
+
+<!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+</body>
+</html>

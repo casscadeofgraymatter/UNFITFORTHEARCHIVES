@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfit for the Archives | Camps</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+
+      <header class="site-header">
+        <div class="header-left">
+            <a href="../index.html" class="logo-small">UFTA</a>
+            <br>
+        </div>
+
+        <div class="header-right">
+            <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="navMenu" class="nav-buttons" aria-hidden="true">
+                <button class="nav-button" data-target="section-1" data-href="../prisons/prison.html">Prisons</button>
+                <button class="nav-button" data-target="section-2" data-href="../camps/camps.html">Camps</button>
+                <button class="nav-button" data-target="section-3" data-href="../empires/empires.html">Empires</button>
+                <button class="nav-button" data-target="section-4" data-href="../books/book.html">Books</button>
+                <button class="nav-button" data-target="section-5" data-href="../technological_systems/techsystems.html">Technological Systems</button>
+                <button class="nav-button" data-target="section-6" data-href="../archives/archive.html">Archives</button>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main class="main-layout">
+        <section class="intro">
+<!-- title -->
+            <h1 class="main-title">CAMPS</h1>
+<!-- description -->
+            <p class="intro-lead">
+                <span class="word">Often</span> <span class="word">presented</span> <span class="word">as</span> <span class="word">temporary</span> <span class="word">solutions</span> <span class="word">to</span> <span class="word">crisis,</span> <span class="word">displacement,</span> <span class="word">or</span> <span class="word">conflict.</span> <span class="word">This</span> <span class="word">section</span> <span class="word">explores</span> <span class="word">how</span> <span class="word">camps</span> <span class="word">function</span> <span class="word">as</span> <span class="word">systems</span> <span class="word">that</span> <span class="word">organize</span> <span class="word">people</span> <span class="word">through</span> <span class="word">space,</span> <span class="word">time,</span> <span class="word">and</span> <span class="word">classification,</span> <span class="word">shaping</span> <span class="word">how</span> <span class="word">individuals</span> <span class="word">live,</span> <span class="word">move,</span> <span class="word">and</span> <span class="word">are</span> <span class="word">remembered</span> <span class="word">within</span> <span class="word">institutional</span> <span class="word">structures.</span>
+            </p>
+            <br>
+            <br>
+
+            <div class="main-layout-tag">
+                <p>Containment</p>
+            </div>
+           
+            <br>
+            <br>
+
+            <div class="quiz-buttons-row">
+                <button class="quiz-button" id="quiz-button" data-title="Quiz Game" data-section="camps" style="cursor:pointer;">LEARN</button>
+                <button class="quiz-button orange" id="quiz-button3" data-title="Day in the Life Game" style="cursor:pointer;">DAY IN THE LIFE</button>
+            </div>
+            <p class="hover-hint">play games to help you learn more about containment →</p>
+        </section>
+
+          <section class="divider">
+
+        </section>
+
+        <section>
+            <img class="main-image" src="../images/camps/stock6.jpg" alt="main image of archive" style="width: 400px; height: 400px;">
+        </section>
+
+
+        <!-- fact cards below main section -->
+        <section class="fact-cards">
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Prolonged Displacement</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Many refugee camps were originally designed as temporary spaces but remained active for decades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Population Management</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Camps often rely on classification systems to organize people by nationality, identity, or legal status.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Controlled Movement</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Movement in and out of camps is frequently restricted through checkpoints, surveillance, and administrative approval.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Historical Documentation</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Much of what we know about camp life comes from letters, photographs, and survivor testimonies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- container for subpage content and buttons -->
+        <section class="subpage-container">
+            <div id="subpage-content" class="subpage-content">
+                <!-- embedded sections, only architecture shown by default -->
+                <details open id="architecture-details">
+                    <summary>Architecture</summary>
+                    <div class="subpage-section" id="architecture">
+                        <p>Camps are built environments designed to organize and control large groups of people. Unlike prisons, which are typically permanent institutions, many camps emerge quickly in response to war, displacement, or political crisis. Their structures often reflect urgency and temporary planning, yet many remain in place for years or even decades.</p>
+                        <p>The architecture of camps is rarely neutral. Layouts of barracks, fences, checkpoints, and watchtowers are designed to regulate movement and maintain separation between groups. Physical boundaries define where individuals can live, work, and gather, shaping daily life through spatial restrictions.</p>
+
+                        <p><strong>Primary Excerpts:</strong></p>
+                        <img class="excerpt-thumb" src="../images/camps/architecture/pow1.jpg" alt="Excerpt thumbnail" data-title="Soldier Accounted For From World War II (Arnao, C.)"  data-trans="Gen. Douglas MacArthur said at the war trials of all cases of brutality and mistreatment 'none can compare with the torment and torture suffered by our soldiers who were POWS aboard the Orko, Brazin and Enoura on the voyage from Manilla to Japan. It is a saga of men driven to madness by sadistic and sensual captors.' 
+                        After the trial, Gen. MacArthur said, 'today, of the 1,619 men who set said on the voyage, less than 200 are alive. I have read diaries, written at the time, tomes of recorded tesitmony have talked to survivors, and no place in recorded history can one find anything so gruesome and horrible. No mitigating circumstances can explain or condone such cruelty. The callous and vile conduct of the captors will live in infamy'." style="max-width:200px;cursor:pointer;">
+                        <img class="excerpt-thumb" src="../images/camps/architecture/pow2.jpg" alt="Excerpt thumbnail" data-title="POW Letters | January 16,1994 - November 27, 1944 1Lt Paul W. Campbell"   data-trans="Jan 16, 1994. Dear Dad, I am P. of W. in Germany. I am uninjured in any way. Get in touch with your Local Red Cross agent and find out all details about letters, Packages, etc. This is only a transient camp. A letter will follow in a few days. Love, Paul." style="max-width:200px;cursor:pointer;">
+                        <img class="excerpt-thumb" src="../images/camps/architecture/pow3.jpg" alt="Excerpt thumbnail" data-title="A rescue letter sent to Jack Comstock's family detailing his rescue from a POW camp."  data-trans="BY DIRECT WIRE FROM WESTERN UNION. WUB68 55 3 EXTRA GOVT=WASHINGTON DC VIA BOULDER COLO. FEB 21. CARE LT G A COMSTOCK 0-914399: EDUCATION OFFICER AND INFORMATION OFFICER WILLIAMSFIELD. AM PLEASED TO INFORM YOU THAT OFFICAL REPORT JUST RECIEVED STATES THAT YOUR SON CAPTAIN JACK A COMSTOCK LAST REPORTED TO BE A PRISONER OF 
+                        WAR OF THE JAPANESE GOVERNMENT HAS BEEN RESCUED BY OUR FORCES AND IS NOW SAFE PERIOD PHYSICAL CONDITION FAIR FURTHER DETAILS WILL BE FORWARDED PROMPTLY WHEN RECIEVED. =J A ULIO THE ADJUTANT GENERAL. " style="max-width:200px;cursor:pointer;">
+                        <img class="excerpt-thumb" src="../images/camps/architecture/pow4.jpg" alt="Excerpt thumbnail" data-title="WW2 Era Letter Written by German POW in Texas" data-trans="Mrs. V BURLINGHAM. 2991 BAiLEY AVE. BUFFALO N.Y. Texas, 27.2. A944. Dear Mrs. Burlingham! I recieved your letter and thank you very much. I shall try to fulfill your wish. Am 23 years old. Billy is exactly of the same age, isn't he? Otherwise I go to work every day and earn seventy cents a day. If I do not work, then only no cents a day. If possible I shall try to visit you after the war. Otherwise I am still very well. How are you? With the best of wishes to you and Billy I remain. Yours truly, Heinz." style="max-width:200px;cursor:pointer;">
+
+                        <p>Across different historical contexts, camp architecture has served multiple purposes. Refugee camps, prisoner-of-war camps, and concentration camps have all used spatial design to manage populations and enforce authority. Roads, guard posts, and surveillance positions often determine how visibility and control are maintained within the environment.</p>
+                        <p>These spaces reveal how architecture can function as a tool of governance. The arrangement of buildings, pathways, and boundaries does more than provide shelter. It organizes people, defines power relationships, and shapes how life unfolds within confined environments.</p>
+                    </div>
+                </details>
+                <details id="systemssorting-details">
+                    <summary>Systems of Sorting</summary>
+                    <div class="subpage-section" id="systemssorting">
+                        <p>Camps frequently rely on systems of classification to organize the people who live within them. These systems assign identities, categories, and status levels that determine where individuals are placed and how they are treated within the camp environment.</p>
+                        <p>In some historical contexts, these classifications were formalized through visual markers. During the Second World War, for example, Nazi concentration camps used a system of colored badges and symbols to categorize prisoners according to political affiliation, religion, nationality, or other identities.</p>
+
+                        <div class="image-gallery">
+                            <a href="https://www.facebook.com/photo/?fbid=1368358035331933&set=pcb.1368358105331926" target="_blank" rel="noopener"><img src="../images/camps/systems_sorting/image1.jpg" alt="Image 1"></a>
+                            <a href="https://www.historycolorado.org/story/2023/08/31/uncle-doc-pows-story-survival-compassion-and-hope" target="_blank" rel="noopener"><img src="../images/camps/systems_sorting/image2.jpg" alt="Image 2"></a>
+                            <a href="https://www.pbs.org/newshour/nation/first-immigration-detainees-arrive-at-alligator-alcatraz-in-florida-everglades" target="_blank" rel="noopener"><img src="../images/camps/systems_sorting/image3.jpg" alt="Image 3"></a>
+                            <a href="https://www.historycolorado.org/story/2023/08/31/uncle-doc-pows-story-survival-compassion-and-hope" target="_blank" rel="noopener"><img src="../images/camps/systems_sorting/image4.jpg" alt="Image 4"></a>
+                            <a href="https://www.nps.gov/articles/000/immortal-600.htm" target="_blank" rel="noopener"><img src="../images/camps/systems_sorting/image5.jpg" alt="Image 5"></a>
+                        </div>
+
+                        <p>These forms of labeling functioned as tools of control. By reducing individuals to categories, institutions could more easily regulate labor, restrict movement, and separate groups from one another. The system transformed identity into a bureaucratic label that shaped everyday experiences inside the camp.</p>
+                        <p>Systems of sorting reveal how camps operate not only through physical boundaries but also through administrative classification. Labels, documentation, and visual markers become mechanisms that define belonging, exclusion, and hierarchy within the confined space.</p>
+                    </div>
+                </details>
+                <details id="temporalregimes-details">
+                    <summary>Temporal Regimes</summary>
+                    <div class="subpage-section" id="temporalregimes">
+                        <p>Life inside camps is often structured around controlled forms of time. Daily routines, work schedules, curfews, and roll calls organize the rhythm of everyday life, creating an environment where personal time becomes subordinate to institutional regulation.</p>
+                        <p>For many people held in camps, time can feel suspended between uncertainty and waiting. Displaced populations may remain in refugee camps for years while awaiting legal decisions or resettlement. Prisoners of war historically faced similar conditions, where daily routines continued while the end of confinement remained unknown.</p>
+                        
+                        <div class="audio-embeds">
+                            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/7vzwKNyV0BYLpKbuAex6fd?utm_source=generator&t=32" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/37oZq88eUkUtfEOZBPjnR1?utm_source=generator&t=38" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
+
+                        <p>These temporal structures shape how individuals experience confinement. Days become repetitive and predictable, yet the overall future remains uncertain. This combination of rigid routines and indefinite confinement produces an immense sense of psychological dislocation.</p>
+                        <p>By controlling both space and time, camps become environments where institutional authority extends into the most ordinary aspects of life. Schedules, waiting periods, and prolonged confinement redefine how individuals experience the passage of time itself.</p>
+                    </div>
+                </details>
+                <details id="fragmentedaccounts-details">
+                    <summary>Fragmented Accounts</summary>
+                    <div class="subpage-section" id="fragmentedaccounts">
+                        <p>Much of what we know about life in camps comes from incomplete and fragmented accounts. Official records often focus on administration, population numbers, or logistics, leaving personal experiences largely undocumented.</p>
+                        <p>Many testimonies instead survive through letters, diaries, photographs, and later recollections from those who lived through these environments. These materials provide insight into daily struggles, relationships, and moments of resilience that formal documentation rarely captures.</p>
+
+                        <iframe width="520" height="315" src="https://www.youtube.com/embed/Ur5YTaXzhoE?si=nC8nhpxCNKIG_n78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="520" height="315" src="https://www.youtube.com/embed/0Cb_-jw_NEI?si=_eHseTlgTL7kTNa7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <p>In some cases, visual records also reveal moments of humiliation or violence that were meant to reinforce power and control. Photographs documenting public punishments or forced displays of shame demonstrate how authority could be performed and recorded within camp systems.</p>
+                        <p>These fragments form an alternative archive of camp life. While incomplete, they offer perspectives that challenge official narratives and preserve the voices of those whose experiences might otherwise remain absent from historical records.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <div class="continue-next-section">
+        <a class="continue-button" href="../empires/empires.html">CONTINUE TO NEXT SECTION</a>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="footer-title" style="color: rgba(240, 150, 4, 0.85);"><strong>UNFIT FOR THE ARCHIVES</strong></div>
+            <br>
+            <div class="tldr">Investigates how institutional systems, technology, and archives shape memory, power, and cultural authority.</div>
+            <div class="tldr">The project looks into the ways that formal systems like books, prisons, camps, bureaucratic records, and</div>
+            <div class="tldr">technological infrastructures are used to create, preserve, suppress, or erase histories.</div>
+            <br>
+        </div>
+        <div class="footer-right">
+            <br>
+            <button class="footer-link" data-modal="about">About</button>
+            <button class="footer-link" data-modal="bibliography">Bibliography</button>
+            <button class="footer-link" data-modal="ethical">Ethical note</button>
+        </div>
+    </footer>
+
+<!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+</body>
+</html>

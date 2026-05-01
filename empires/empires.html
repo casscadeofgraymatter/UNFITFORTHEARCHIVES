@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfit for the Archives | Empires</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+
+      <header class="site-header">
+        <div class="header-left">
+            <a href="../index.html" class="logo-small">UFTA</a>
+            <br>
+        </div>
+
+        <div class="header-right">
+            <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="navMenu" class="nav-buttons" aria-hidden="true">
+                <button class="nav-button" data-target="section-1" data-href="../prisons/prison.html">Prisons</button>
+                <button class="nav-button" data-target="section-2" data-href="../camps/camps.html">Camps</button>
+                <button class="nav-button" data-target="section-3" data-href="../empires/empires.html">Empires</button>
+                <button class="nav-button" data-target="section-4" data-href="../books/book.html">Books</button>
+                <button class="nav-button" data-target="section-5" data-href="../technological_systems/techsystems.html">Technological Systems</button>
+                <button class="nav-button" data-target="section-6" data-href="../archives/archive.html">Archives</button>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main class="main-layout">
+        <section class="intro">
+<!-- title -->
+            <h1 class="main-title">EMPIRES</h1>
+<!-- description -->
+            <p class="intro-lead">
+                <span class="word">Empires</span> <span class="word">archive</span> <span class="word">power</span> <span class="word">through</span> <span class="word">maps,</span> <span class="word">laws,</span> <span class="word">and</span> <span class="word">official</span> <span class="word">narratives</span> <span class="word">that</span> <span class="word">frame</span> <span class="word">domination</span> <span class="word">as</span> <span class="word">order.</span> <span class="word">This</span> <span class="word">section</span> <span class="word">follows</span> <span class="word">the</span> <span class="word">records</span> <span class="word">of</span> <span class="word">conquest</span> <span class="word">and</span> <span class="word">the</span> <span class="word">counter-memories</span> <span class="word">that</span> <span class="word">refuse</span> <span class="word">erasure.</span>
+            </p>
+            <br>
+            <br>
+
+            <div class="main-layout-tag">
+                <p>Domination</p>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="quiz-buttons-row">
+                <button class="quiz-button" id="quiz-button" data-title="Quiz Game" data-section="empires" style="cursor:pointer;">LEARN</button>
+                <button class="quiz-button orange" id="game-button" data-title="The Map Room" style="cursor:pointer;">THE MAP ROOM</button>
+            </div>
+            <p class="hover-hint">play games to help you learn more about domination →</p>
+        </section>
+
+          <section class="divider">
+
+        </section>
+
+        <section>
+            <img class="main-image" src="../images/empires/stock7.jpg" alt="main image of archive" style="width: 400px; height: 400px;">
+        </section>
+
+
+        <!-- fact cards below main section -->
+        <section class="fact-cards">
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Conquest</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Empires expanded through military conquest, often justifying violence as civilizing missions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Colonization</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Imperial powers established colonies that exploited local resources and labor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Power</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Empires maintained control through hierarchical structures and administrative systems.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Erasure</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Imperial narratives often erased indigenous histories and cultures.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- container for subpage content and buttons -->
+        <section class="subpage-container">
+            <div id="subpage-content" class="subpage-content">
+                <!-- embedded sections, only lived shown by default -->
+                <details open id="resistance-details">
+                    <summary>Resistance, Memory, Disrupted Narratives</summary>
+                    <div class="subpage-section" id="resistance">
+                        <p>Empires don't only conquer territory. They conquer the right to narrate. Official histories frame expansion as progress, displacement as development, and resistance as disorder. The counter-archive of empire lives in the documents, testimonies, and creative works that institutions tried to suppress, discredit, or simply never collected.</p>
+                        <ul class="resistance-blue-bullets">
+                            <li>Frantz Fanon's The Wretched of the Earth (1961) remains one of the most direct accounts of what it costs a colonized people to reclaim their own story. Fanon writes not only about political liberation but about the psychological work of dismantling an identity that was imposed by force. The colonized person, he argues, does not just need land returned. They need the right to name their own experience returned, and that right was taken through institutions, schools, archives, courts, and the written record.</li>
+                            <li>Michel Foucault's Language, Counter-Memory, Practice (1977) offers a framework for understanding why official memory is so durable and why counter-memory is so difficult to sustain. Foucault argues that dominant institutions do not simply record history, they produce it, determining which events are legible as significant and which are allowed to fade. Counter-memory, by contrast, is the practice of recovering what official history has ruled out, the fragment, the personal account, the version of events that did not make it into the archive. It is not a correction to official history so much as a refusal of its completeness.</li>
+                            <li>The Haitian Revolution of 1791 to 1804 is the only successful enslaved people's revolution in recorded history. It's also one of the most consistently minimized events in Western historical archives. The documents from that period, letters, military dispatches, plantation records, tell the story of an empire confronting a disruption it did not have language for. The counter-memory of that revolution persisted not primarily in official archives but in oral tradition, Haitian literature, and the deliberate recovery work of historians who looked for what the dominant record left out.</li>
+                            <li>Patrice Lumumba's final letter, written before his assassination in 1961 and suppressed for decades, is a document of this same kind. Written to his wife from captivity, it was not intended for an archive. It survived because people chose to preserve it outside institutional channels. That survival is its own argument about where counter-memory lives.</li>
+                        </ul>
+
+                        <p><strong>Primary Excerpts:</strong></p>
+                        <!-- placeholder thumbnail; clicking opens modal -->
+                        <img 
+                        class="excerpt-thumb" 
+                        src="../images/empires/resistance_mem_disnar/2.png" 
+                        alt="Excerpt thumbnail" 
+                        data-title="Anderson B. Imagined Communities p.50" 
+                        data-trans="Here then is the riddle: why was it precisely <i>creole</i> communitites that developed so early conceptions of their nation-ness - <i>well before most Europe?</i> 
+                                    Why did such colonial provinces, usually containing large, oppressed, non-Spanish-speaking population, produce creoles who consciously redefined htese populations as fellow-nationnals? 
+                                    And Spain, to whom they were, in so many ways, attached, as an enemy alien? 
+                                    Why did the Spanish-American Empire, which had existed calmly for almost three centuries, quite suddenly fragment into eighteen seperate states?">
+                        <img 
+                        class="excerpt-thumb" 
+                        src="../images/empires/resistance_mem_disnar/3.png" 
+                        alt="Excerpt thumbnail" 
+                        data-title="History Guild: The Berlin Conference of 1884-1885" 
+                        data-trans="In 1895, the British South Africa Company hired the American scout Frederick Russell Burnham to look for minerals and ways to improve river navigation in the central and southern Africa region. 
+                                    Burnham oversaw and led the Northern Territories British South Africa Exploration Company expedition that first found major copper deposits north of the Zambezi in North-Eastern Rhodesia. 
+                                    Along the Kafue River, Burnham saw many similarities to copper deposits he had worked in the United States and encountered native peoples wearing copper bracelets. 
+                                    Copper rapidly became the primary export of Central Africa and remains essential to the economy today.">
+                        <img 
+                        class="excerpt-thumb" 
+                        src="../images/empires/resistance_mem_disnar/4.jpg" 
+                        alt="Excerpt thumbnail" 
+                        data-title="(1960) Patrice Lumumba’s Last Letter to Pauline Lumumba" 
+                        data-trans="Neither brutal assaults, nor cruel mistreatment, nor torture have ever led me to beg for mercy, for I prefer to die with my head held high, unshakable faith, and the greatest confidence in the destiny of my country rather than live in slavery and contempt for sacred principles. 
+                                    History will one day have its say; it will not be the history taught in the United Nations, Washington, Paris, or Brussels, however, but the history taught in the countries that have rid themselves of colonialism and its puppets. 
+                                    Africa will write its own history and both north and south of the Sahara it will be a history full of glory and dignity.
+                                    Do not weep for me, my companion; I know that my country, now suffering so much, ‘will be able to defend its independence and its freedom. Long live the Congo! Long live Africa!">
+                        <img 
+                        class="excerpt-thumb" 
+                        src="../images/empires/resistance_mem_disnar/5.png" 
+                        alt="Excerpt thumbnail" 
+                        data-title="Foucault M. Language, Counter-Memory, Practice p.203"
+
+                        data-trans="Thus, selfish interest is radically posed as coming before
+                                    knowledge, which it subordinates to its needs as a simple instrument; a knowledge, which is dissociated from pleasure and happiness, is linkd to the struggle, the hate, and the spitefulness
+                                    directed against it until it drives at its own rejection as an excess created by struggle, hate, and spitefulness: its original
+                                    connection to truth is undone once truth becomes merely an effect—the effect of a falsification that we call the opposition of
+                                    truth and falsehood. This model of a fundamentally selfish knowledge, produced by volition as an event and determining truth as an effect of falsification, is undoubtedly totally alien to
+                                    the assumptions of classical metaphysics. This model, used in a variety of ways, was related, throughout the year, to a series of examples">
+                    </div>
+                </details>
+                <details id="extraction-details">
+                    <summary>Circuits of Extraction</summary>
+                    <div class="subpage-section" id="extraction">
+                        <p>Empires run on paper as much as on force. Ledgers, shipping manifests, tax records, and trade agreements are the administrative infrastructure of extraction, and they survive in archives when the human cost they represent does not. The bureaucratic record of empire is often meticulous about what was taken and nearly silent about what that taking destroyed.</p>
+                        <p>Adam Hochschild's King Leopold's Ghost (1998) reconstructs the Congo Free State through exactly this kind of archival excavation. Leopold II's regime extracted rubber through a system of enforced quotas, mutilation, and collective punishment. The paper trail exists, colonial reports, missionary accounts, the photographs taken by Edmund Morel and others that forced a reluctant public reckoning. What makes Hochschild's account archivally significant is not just what the documents say but the gap between the administrative language used to describe the system and the human reality that language was designed to obscure.</p>
+
+                        <div class="pdf-link-grid">
+                            <button type="button" class="pdf-open-trigger" data-title="Slave trade ledger of William James Smith, 1844-1854" data-source-label="Wofford College" data-source-url="https://digitalcommons.wofford.edu/localhist/1/" data-pdf="../images/empires/circuitsofex/Slavetradeledgerof_WilliamJamesSmith1844-1854.pdf">Slave trade ledger of William James Smith, 1844-1854 (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Slave Voyages Archive" data-pdf="../images/empires/circuitsofex/SlaveVoyages.pdf" data-source-label="Slave Voyages" data-source-url="https://www.slavevoyages.org/">Open Slave Voyages Introduction (PDF)</button>
+                        </div>
+
+                        <p>Giorgio Agamben's concept of bare life, developed in Homo Sacer: Sovereign Power and Bare Life (1998), describes the condition of people who exist within a political system while being excluded from its protections. In the context of imperial extraction, this describes the situation of colonized populations with precision. They were governed, taxed, counted, and administered by systems that simultaneously denied them the legal and political standing those systems claimed to extend. The administrative record of their exploitation survives in colonial archives. The record of their full humanity largely does not.</p>
+                        <p>Eric Williams's Capitalism and Slavery (1944) makes the economic argument that the Industrial Revolution was financed by the transatlantic slave trade, that European modernity and colonial extraction are not parallel histories but the same history. The shipping manifests and port records of the 18th century are documents of this circuit, goods listed by weight and value, enslaved people listed as cargo. The archive of empire is an archive of profit, and reading it as such changes what it means.</p>
+                    </div>
+                </details>
+                <details id="language-details">
+                    <summary>Dominant Language</summary>
+                    <div class="subpage-section" id="language">
+                        <p>Language isn't a neutral vessel. When empires arrive, one of their first administrative acts is linguistic. Schools teach in the colonizer's language. Legal systems operate in it. Documents that grant or deny rights are written in it. To exist within the empire's institutions, the colonized must become legible in a language that was not theirs, and that transaction carries a cost that outlasts formal colonial rule.</p>
+                        <p>Ngũgĩ wa Thiong'o's Decolonising the Mind (1986) is the clearest account of this cost in the literary record. Ngũgĩ describes being beaten at school for speaking Gikuyu, his first language, and the gradual internalization of the idea that English was the language of intelligence and Gikuyu the language of backwardness. His decision, made in 1977, to stop writing in English and write only in Gikuyu and Swahili was not only a personal choice. It was a public argument about who literature is for and what it means to write in the language of the people whose story you are telling.</p>
+
+                        <p><strong>Primary Excerpts:</strong></p>
+
+                        <div class="primary-excerpts-text" id="resistance-quote-list">
+                            <blockquote class="excerpt-quote">
+                                <p>"A civilization that proves incapable of solving the problems it creates is a decadent civilization. 
+                                    A civilization that chooses to close its eyes to its most crucial problems is a stricken civilization. 
+                                    A civilization that uses its principles for trickery and deceit is a dying civilization."</p>
+                                <cite>Discourse on Colonialism, Aimé Césaire, 1950</cite>
+                            </blockquote>
+                            <blockquote class="excerpt-quote">
+                                <p>"The religious dictum from the sixteenth and seventeenth centuries, “convert—for your own good—or I will kill you” lived on in subsequent translations: 
+                                    during the eighteenth and nineteenth centuries, in a cultural key, “civilize—for your own good—or I will kill you,” 
+                                    and, in the (late-) nineteenth and twentieth, in an economic-social format, “develop—for your own good—or I will kill you.” 
+                                    Finally, the overtly political dimension was added in the (late) twentieth and twenty-first centuries: “democratize—for your own good—or I will kill you.”"</p>
+                                <cite>Religion, Modernity, and the Global Afterlives of Colonialism, Atalia Omer & Joshua Lupo, 2024</cite>
+                            </blockquote> 
+
+                        </div>
+
+                        <p>Edward Said's Orientalism (1978) extends this analysis beyond schools and into scholarship itself. Said documents how Western academic vocabulary constructed an entire framework for describing the East, words like exotic, tribal, timeless, and irrational, that served imperial purposes by making the colonized world appear to need the management that colonizers offered. That vocabulary did not stay in academic journals. It shaped journalism, policy, law, and the categories through which colonized people were administered.</p>
+                        <p>Colonial-era missionary language primers and dictionaries are among the most revealing physical artifacts of this process. Often the first things printed by colonial presses in a new territory, they were tools for making indigenous people legible to the administration, and for making the administration's language the only language that counted. The official records renaming cities, rivers, and territories follow the same logic. Bombay to Mumbai, Rhodesia to Zimbabwe, the administrative paper trail of reclaimed names tells the story of dominant language and its undoing simultaneously.</p>
+                    </div>
+                </details>
+                <details id="cartographies-details">
+                    <summary>Powerful Cartographies</summary>
+                    <div class="subpage-section" id="cartographies">
+                        <p>Maps are not neutral representations of space. They are tools of power, instruments for claiming, controlling, and organizing territory. The act of mapping is an act of authority, deciding what is important, what is visible, and what is omitted.</p>
+                        <p>A map looks like a fact. It's an argument. Every decision made in producing a map, what to include, what to leave blank, what scale to use, where to place the center, encodes a political position. Empires understood this. Maps were among their most powerful administrative tools, not because they described the world accurately but because they made imperial claims look like geographic reality.</p>
+                        <p>The Scramble for Africa map produced at the Berlin Conference of 1884 to 1885 is among the most legible single images of extraction as administrative act. European powers divided a continent they had not surveyed, drawing borders through territories they had never entered, across communities, languages, and political structures that had existed for centuries. That map is not a description of Africa. It is a claim made on paper that was then enforced with violence.</p>
+
+                        <div class="image-gallery">
+                            <img src="../images/empires/powerfulcart/sykes-picotagreement1916.png" alt="Sykes-Picot Agreement map, 1916" class="active">
+                            <img src="../images/empires/powerfulcart/scrambleforafrica.webp" alt="Scramble for Africa map" class="cartography-large">
+                            <img src="../images/empires/resistance_mem_disnar/1.jpg" alt="European Exploration of Africa" class="cartography-roads">
+                        </div>
+
+                        <p>The Sykes-Picot Agreement of 1916 is the document that most directly illustrates cartography as imperial act. British and French diplomats drew lines across the Middle East, dividing it between their spheres of influence, with no meaningful consultation with the people living there. The pencil lines on that map produced borders that are still generating conflict more than a century later. The map did not describe political reality. It created one.</p>
+                        <p>Benedict Anderson's Imagined Communities (1983) argues that nations are not natural formations but constructed ones, and that maps are among the primary tools of that construction. The map of a nation, he writes, comes before the territory it claims to represent. Colonial administrations produced maps of territories they intended to control, and those maps became the basis for legal claims, resource allocation, and military strategy. The blank spaces on 19th century European maps of Africa and South America, labeled unknown or unexplored despite being inhabited for millennia, are not admissions of ignorance. They are assertions that what existed in those spaces did not count as something that needed to be mapped.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <div class="continue-next-section">
+        <a class="continue-button" href="../books/book.html">CONTINUE TO NEXT SECTION</a>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="footer-title" style="color: rgba(240, 150, 4, 0.85);"><strong>UNFIT FOR THE ARCHIVES</strong></div>
+            <br>
+            <div class="tldr">Investigates how institutional systems, technology, and archives shape memory, power, and cultural authority.</div>
+            <div class="tldr">The project looks into the ways that formal systems like books, prisons, camps, bureaucratic records, and</div>
+            <div class="tldr">technological infrastructures are used to create, preserve, suppress, or erase histories.</div>
+            <br>
+        </div>
+        <div class="footer-right">
+            <br>
+            <button class="footer-link" data-modal="about">About</button>
+            <button class="footer-link" data-modal="bibliography">Bibliography</button>
+            <button class="footer-link" data-modal="ethical">Ethical note</button>
+        </div>
+    </footer>
+
+<!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+</body>
+</html>

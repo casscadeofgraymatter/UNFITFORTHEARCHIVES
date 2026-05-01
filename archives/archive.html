@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfit for the Archives | Archives</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+
+      <header class="site-header">
+        <div class="header-left">
+            <a href="../index.html" class="logo-small">UFTA</a>
+            <br>
+        </div>
+
+        <div class="header-right">
+            <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="navMenu" class="nav-buttons" aria-hidden="true">
+                <button class="nav-button" data-target="section-1" data-href="../prisons/prison.html">Prisons</button>
+                <button class="nav-button" data-target="section-2" data-href="../camps/camps.html">Camps</button>
+                <button class="nav-button" data-target="section-3" data-href="../empires/empires.html">Empires</button>
+                <button class="nav-button" data-target="section-4" data-href="../books/book.html">Books</button>
+                <button class="nav-button" data-target="section-5" data-href="../technological_systems/techsystems.html">Technological Systems</button>
+                <button class="nav-button" data-target="section-6" data-href="../archives/archive.html">Archives</button>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main class="main-layout">
+        <section class="intro">
+<!-- title -->
+            <h1 class="main-title">ARCHIVES</h1>
+<!-- description -->
+            <p class="intro-lead">
+                <span class="word">Archives</span> <span class="word">are</span> <span class="word">not</span> <span class="word">neutral</span> <span class="word">containers;</span> <span class="word">they</span> <span class="word">are</span> <span class="word">systems</span> <span class="word">that</span> <span class="word">authorize</span> <span class="word">some</span> <span class="word">records</span> <span class="word">while</span> <span class="word">excluding</span> <span class="word">others.</span> <span class="word">This</span> <span class="word">section</span> <span class="word">focuses</span> <span class="word">on</span> <span class="word">selection,</span> <span class="word">absence,</span> <span class="word">and</span> <span class="word">who</span> <span class="word">gets</span> <span class="word">remembered.</span>
+            </p>
+            <br>
+            <br>
+
+            <div class="main-layout-tag">
+                <p>Authority</p>
+            </div>
+            <br>
+            <br>
+            <div class="quiz-buttons-row">
+                <button class="quiz-button" id="quiz-button" data-title="Quiz Game" data-section="archives" style="cursor:pointer;">LEARN</button>
+                <button class="quiz-button orange" id="game-button" data-title="GAME" style="cursor:pointer;">IN THE DARK (DESKTOP ONLY)</button>
+            </div>
+            <p class="hover-hint">play games to help you learn more about authority →</p>
+        </section>
+
+          <section class="divider">
+
+        </section>
+
+        <section>
+            <img class="main-image" src="../images/archives/stock1.jpg" alt="main image of archive" style="width: 400px; height: 400px;">
+        </section>
+
+
+        <!-- fact cards below main section -->
+        <section class="fact-cards">
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Neutrality</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Archives claim to be neutral but are built by people with agendas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Agendas</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Archivists decide what to preserve and what to discard, shaping history.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Structure</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Archives are structured to serve certain narratives and power structures.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Voices</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Whose voices are included or left out determines historical memory.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- container for subpage content and buttons -->
+        <section class="subpage-container">
+            <div id="subpage-content" class="subpage-content">
+                <!-- embedded sections, only lived shown by default -->
+                <details open id="authority-details">
+                    <summary>Authority & Authenticity</summary>
+                    <div class="subpage-section" id="authority">
+                        <p>There is a version of the archive that presents itself as simply a room where things are kept. Neutral, institutional, dutiful. That version is a fiction, and a useful one for the institutions that maintain it. Archives do not passively collect the past. They actively construct it, deciding what enters, what gets catalogued, what survives long enough to be found, and what is allowed to quietly disappear.</p>                        
+                        <p>Jacques Derrida's Archive Fever (1996) opens with the word itself. Arkheion, in ancient Greek, was the house of the magistrate, the official whose authority gave documents their legal weight. The archive was never a neutral space. It was from its origin a place of power, and the person who controlled it controlled what counted as evidence, memory, and truth. That structure has not changed as much as institutions would like to suggest. The archivist is not a passive custodian. The archivist makes judgments, and those judgments accumulate into history.</p>
+
+                        <div class="pdf-link-grid">
+                            <button type="button" class="pdf-open-trigger" data-title="Michelle Caswell, Dusting for Fingerprints: Introducing Feminist Standpoint Appraisal" data-pdf="../images/archives/authorityauthenticity/caswell.pdf" data-source-label="Dusting for Fingerprints:  Introducing Feminist Standpoint Appraisal">Dusting for Fingerprints: Introducing Feminist Standpoint Appraisal (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Jacques Derrida, Archive Fever: A Freudian Impression" data-pdf="../images/archives/authorityauthenticity/derrida.pdf" data-source-label="Archive Fever">Archive Fever: A Freudian Impression (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Joan Schwartz, Archives, Records, and Power" data-pdf="../images/archives/authorityauthenticity/schwartz.pdf" data-source-label="Archives, Records, and Power">Archives, Records, and Power: The Making of Modern Memory (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Ann Laura Stoler, Colonial Archives and the Arts of Governance" data-pdf="../images/archives/authorityauthenticity/stollerarchivegovernence.pdf" data-source-label="Colonial Archives and the Arts of Governance">Colonial Archives and the Arts of Governance (PDF)</button>
+                            <button type="button" class="pdf-open-trigger" data-title="Kimberly Christen & Jane Anderson, Toward Slow Archives" data-pdf="../images/archives/authorityauthenticity/towardsslowarchives.pdf" data-source-label="Toward Slow Archives">Toward Slow Archives (PDF)</button>
+                        </div>
+
+                        <p>Joan Schwartz and Terry Cook, writing in Archives, Records, and Power (2002), put it plainly: archives are not passive storehouses of old documents but active sites where social power is negotiated, contested, and confirmed. Authenticity is one of the key tools in that negotiation. A document is considered authentic when an institution says it is, when it bears the right signatures, the right provenance, the right chain of custody. That determination is not purely technical. It reflects whose record-keeping practices are treated as legitimate and whose are not. A letter written by a colonial administrator is authenticated. A letter written by the person that administrator was administering is an artifact, a curiosity, evidence of something else.</p>
+                        <p>Eric Ketelaar's work in Cultivating Archives (2017) extends this by thinking about what archives mean to the communities they represent or misrepresent. Archives cultivate particular identities, he argues, by choosing what to preserve and how to describe it. The finding aid, the catalogue entry, the classification label, these are not neutral descriptions. They are interpretations, and they shape every encounter a researcher has with the material inside. To trust the archive uncritically is to trust the interpretations of the people who built it, and those people had interests, biases, and institutional pressures of their own.</p>
+                    </div>
+                </details>
+                <details id="gaps-details">
+                    <summary>Gaps & Structural Absences</summary>
+                    <div class="subpage-section" id="gaps">
+                        <p>The most important thing in an archive is sometimes what is not there. Gaps are not accidents. They are the result of decisions, some deliberate, some structural, some so deeply embedded in institutional practice that the people making them did not recognize them as decisions at all. What gets collected reflects who was doing the collecting, who they considered worth documenting, and whose testimony they trusted enough to preserve.</p>                        
+                        <p>Derrida describes this in terms of what he calls the death drive within the archive, the impulse toward destruction that runs alongside the impulse to preserve. Institutions archive selectively, and that selection is shaped by what feels safe to keep, what serves the institution's self-image, and what might become inconvenient. The deliberate destruction of colonial records by the British government before independence was granted to Kenya, Malaysia, and other territories is one of the most documented examples of this, files burned or dumped at sea specifically to prevent future accountability. The gap in the archive is not an absence of history. It is evidence of a choice.</p>
+
+                        <img class="excerpt-thumb" src="../images/archives/gaps/1.jpg" alt="Archival gaps image 1" data-title="19th Century Historic Photographs" data-trans="Different 19th century photography types. Top left: albumen print; Top right: cartes de visite (an albumen print mounted on a paper card); Bottom: Silver gelatin print." style="max-width:200px;cursor:pointer;">
+                        <img class="excerpt-thumb" src="../images/archives/gaps/2.jpg" alt="Archival gaps image 2" data-title="Letter from the National Archives of Greece" data-trans="A letter from a woman, dated 18 October 1873, to King George I, in which the woman denounces the brutal behaviour of the police against her husband, a sandals' maker. As proof of the assault, the woman attached to the letter a section of her husband's ripped off mustache." style="max-width:200px;cursor:pointer;">
+                        <img class="excerpt-thumb" src="../images/archives/gaps/3.jpg" alt="Archival gaps image 3" data-title="Iraqi Jewish Archive" data-trans="Images of items recovered from the flooded basement of the Mukhabarat, Saddam Hussein’s intelligence headquarters, before treatment" style="max-width:200px;cursor:pointer;">
+                        <img class="excerpt-thumb" src="../images/archives/gaps/4.jpg" alt="Archival gaps image 4" data-title="The Treaty of Guadalupe Hidalgo (1848)" data-trans="This complex artifact consists of textiles, metal ornaments, and paper. This treaty, which added nearly two million square miles to the United States, including present-day California, Arizona, Nevada, Utah, New Mexico, and parts of Colorado and Wyoming, ended the Mexican War." style="max-width:200px;cursor:pointer;">
+                        <img class="excerpt-thumb" src="../images/archives/gaps/5.jpg" alt="Archival gaps image 5" data-title="Anti-Slavery Fair Invitation, 1846" data-trans="This item consists of a printed invitation to a fund-raising fair for the anti-slavery cause. It is addressed to Salem, Ohio residents Theophilus Gates Rogers and his sister." style="max-width:200px;cursor:pointer;">
+
+                        <p>Schwartz and Cook argue that understanding archives requires understanding what they were never designed to collect. The record-keeping systems of most major institutions were built around the documentation of official transactions, decisions made, orders given, property transferred. The experience of living within those decisions, the fear, the displacement, the daily texture of life under a system that did not consider you fully legible, was not the kind of thing those systems were built to record. That does not mean it went undocumented. It means the documentation exists elsewhere, in letters, in oral history, in art, in community archives that institutions have not always recognized as archives at all.</p>
+                        <p>Ketelaar writes about the silences that accumulate within a collection over time, the things that were present and lost, the things that were never collected, and the things that exist but have been described in ways that make them unfindable. A document filed under the wrong name, a photograph catalogued without identifying the people in it, a collection donated by a community that was then described entirely in the language of the institution receiving it rather than the community that created it. These are structural absences, and they compound. Each one makes the next one harder to see.</p>
+                    </div>
+                </details>
+                <details id="ignoring-details">
+                    <summary>Ignoring Classifications</summary>
+                    <div class="subpage-section" id="ignoring">
+                        <p>Classification is how archives organize knowledge, and it is one of the most consequential things an institution does. The categories used to sort and describe material determine what can be found, what gets connected to what, and what relationships between documents remain invisible because the classification system was not built to see them. A filing system is a worldview made administrative.</p>                        
+                        <p>Derrida's argument about the arkheion is relevant here in a specific way. The authority to classify is the authority to determine what something is and where it belongs, and that authority has historically been exercised by a very narrow range of people. The classification systems of major national archives were built in the 19th and early 20th centuries, during the height of imperial administration, by people who brought to the task all the assumptions of that moment about race, gender, nationality, and what kinds of human activity were significant enough to name. Those assumptions are still embedded in the systems. Researchers looking for material about colonized communities, women, working-class people, or anyone else who was not the intended subject of institutional record-keeping often find that the material exists but the classification system does not point toward it.</p>
+
+                       <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6hY6RuiYbtL7CEQbnb7cyK?utm_source=generator&t=77" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                        <p>Ketelaar's concept of the tacit narrative is useful for understanding how this works in practice. Every collection has a story built into its arrangement, a set of implicit assumptions about what the material is for and who it serves. That story is rarely stated explicitly. It operates through the categories chosen, the level of description applied to different parts of the collection, and the connections made or not made between related materials. To ignore classification, to read against the finding aid rather than with it, is often the only way to recover what the tacit narrative was designed to leave out.</p>
+                        <p>Schwartz and Cook argue that the most significant act of archival reform is not adding new material but rethinking the frameworks used to describe existing material. Reclassification, redescription, and the centering of community expertise in the cataloguing process can make visible what has always been there but was arranged to be invisible. This is slow, unglamorous work, and it is resisted by institutions that have an interest in the authority of their existing systems. But it is where a great deal of the most significant archival scholarship is now happening.</p>
+                    </div>
+                </details>
+                <details id="ordering-details">
+                    <summary>Ordering & Collection</summary>
+                    <div class="subpage-section" id="ordering">
+                        <p>The order of an archive is not the order of history. It is the order that made sense to the people who built the collection, at a particular moment, with particular resources, serving particular needs. That order shapes every subsequent use of the material, and changing it is one of the most political acts an institution can undertake.</p>                        
+                        <p>Derrida writes that the archive is always a promise about the future as much as a record of the past. What we choose to collect now determines what future researchers will be able to find, and what they will be able to know. Collection policy is therefore a form of power over time, a decision made in the present about what the future will be allowed to remember. The institutions that have historically held that power have not been neutral. They have collected what confirmed their authority, what supported their version of events, and what was produced by people they recognized as legitimate producers of knowledge.</p>
+
+                         <div class="video-embed">
+                            <iframe width="520" height="315" src="https://www.youtube.com/embed/islb8Baq5Gg?si=o8qvMFL8N0v3vY6-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
+                            <iframe width="520" height="315" src="https://www.youtube.com/embed/XsNPlBBi1IE?si=CMz1OD1IjaFO-her&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                   
+                        </div>
+
+                        <p>Ketelaar's attention to the relationship between archives and identity is most pointed here. Collections are not just gathered, they are curated into coherence, arranged to tell a story that feels complete even when it is radically partial. The community whose history was collected by an outside institution, described in someone else's language, ordered according to someone else's logic, and housed in a building they may not feel welcome to enter, is experiencing a particular kind of dispossession that is distinct from but related to the more visible forms. Their history exists. It is just arranged to serve someone else.</p>
+                        <p>Schwartz and Cook end with an argument that is also a responsibility. If archives are sites where power is exercised, then archivists are people who exercise power, and that means they are accountable for how they use it. The ordering of a collection, the decision to acquire or not acquire, to describe or misdescribe, to open access or restrict it, these are ethical decisions with real consequences for real communities. The archive that presents itself as neutral is not avoiding that responsibility. It is just refusing to acknowledge it, and that refusal is itself a choice.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+     <div class="continue-next-section">
+        <a class="continue-button" href="../index.html">BACK TO HOME</a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="footer-title" style="color: rgba(240, 150, 4, 0.85);"><strong>UNFIT FOR THE ARCHIVES</strong></div>
+            <br>
+            <div class="tldr">Investigates how institutional systems, technology, and archives shape memory, power, and cultural authority.</div>
+            <div class="tldr">The project looks into the ways that formal systems like books, prisons, camps, bureaucratic records, and</div>
+            <div class="tldr">technological infrastructures are used to create, preserve, suppress, or erase histories.</div>
+            <br>
+        </div>
+        <div class="footer-right">
+            <br>
+            <button class="footer-link" data-modal="about">About</button>
+            <button class="footer-link" data-modal="bibliography">Bibliography</button>
+            <button class="footer-link" data-modal="ethical">Ethical note</button>
+        </div>
+    </footer>
+
+<!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+</body>
+</html>

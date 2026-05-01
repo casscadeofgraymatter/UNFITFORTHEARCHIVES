@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unfit for the Archives | Prisons</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../javascript/script.js" defer></script>
+</head>
+<body>
+
+      <header class="site-header">
+        <div class="header-left">
+            <a href="../index.html" class="logo-small">UFTA</a>
+            <br>
+        </div>
+
+        <div class="header-right">
+            <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="navMenu" class="nav-buttons" aria-hidden="true">
+                <button class="nav-button" data-target="section-1" data-href="../prisons/prison.html">Prisons</button>
+                <button class="nav-button" data-target="section-2" data-href="../camps/camps.html">Camps</button>
+                <button class="nav-button" data-target="section-3" data-href="../empires/empires.html">Empires</button>
+                <button class="nav-button" data-target="section-4" data-href="../books/book.html">Books</button>
+                <button class="nav-button" data-target="section-5" data-href="../technological_systems/techsystems.html">Technological Systems</button>
+                <button class="nav-button" data-target="section-6" data-href="../archives/archive.html">Archives</button>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <main class="main-layout">
+        <section class="intro">
+<!-- title -->
+            <h1 class="main-title">PRISON</h1>
+<!-- description -->
+            <p class="intro-lead">
+                 <span class="word">Sites</span> <span class="word">where</span> <span class="word">stories</span> <span class="word">and</span> <span class="word">evidence</span> <span class="word">are</span> <span class="word">contained,</span> <span class="word">managed,</span> <span class="word">or</span> <span class="word">withheld.</span> <span class="word">This</span> <span class="word">section</span> <span class="word">investigates</span> <span class="word">how</span> <span class="word">carceral</span> <span class="word">systems</span> <span class="word">shape</span> <span class="word">visibility</span> <span class="word">and</span> <span class="word">memory,</span> <span class="word">and</span> <span class="word">how</span> <span class="word">documents,</span> <span class="word">objects,</span> <span class="word">and</span> <span class="word">human</span> <span class="word">voices</span> <span class="word">persist</span> <span class="word">despite</span> <span class="word">being</span> <span class="word">trapped</span> <span class="word">behind</span> <span class="word">walls.</span>
+            </p>
+           
+            <br>
+            <br>
+
+            <div class="main-layout-tag">
+                <p>Incarceration</p>
+            </div>
+            <br>
+            <br>
+<!--Game Buttons-->
+            <div class="quiz-buttons-row">
+                <button class="quiz-button" id="quiz-button" data-title="Quiz Game" data-section="prisons" style="cursor:pointer;">LEARN</button>
+                <button class="quiz-button orange" id="quiz-button2" data-title="Case Files Game" style="cursor:pointer;">CASE FILES</button>
+            </div>
+            <p class="hover-hint">play games to help you learn more about incarceration →</p>
+
+
+        </section>
+
+          <section class="divider">
+
+        </section>
+
+        <section>
+            <img class="main-image" src="../images/prison/stock4.jpg" alt="main image of archive" style="width: 400px; height: 400px;">
+        </section>
+
+
+        <!-- fact cards below main section -->
+        <section class="fact-cards">
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Overcrowding</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Many prisons operate at well over 100% capacity, leading to inhumane conditions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Recidivism</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>A significant percentage of released individuals return to prison within three years.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Cost</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>It often costs tens of thousands of dollars per inmate per year to maintain incarceration.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h3>Disparities</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>People from marginalized communities are disproportionately represented in the system.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- container for subpage content and buttons -->
+        <section class="subpage-container">
+            <div id="subpage-content" class="subpage-content">
+                <!-- embedded sections, only lived shown by default -->
+                <details open id="lived-details">
+                    <summary>Lived Experiences</summary>
+                    <div class="subpage-section" id="lived">
+                        <p>Prison life is shaped by routines that are strict, repetitive, and closely monitored. Everyday activities, from meals to movement between spaces, are organized through institutional rules that leave little room for personal autonomy. Over time, many incarcerated people adapt to this environment in order to cope with the demands of confinement.  </p>
+                        <p>Researchers often describe this process as "prisonization," a gradual psychological adjustment in which individuals learn the norms, expectations, and survival strategies required within prison life. This adaptation can involve becoming hyperaware of potential threats, learning to suppress emotions, or distancing oneself from others in order to avoid conflict.
+                        </p>
+
+                        
+                        <p><strong>Primary Excerpts:</strong></p>
+                        <!-- placeholder thumbnail; clicking opens modal -->
+                        <img class="excerpt-thumb" src="../images/prison/lived_experiences/letter1.jpg" alt="Excerpt thumbnail" data-title="An excerpt from a letter ADX-Florence inmate Jabar Currence sent to attorney Ed Aro after the suicide of Robert Knott" data-trans=
+                        "Attorney-at-law
+                        370 Seventeenth Street
+                        Suite 4400
+                        Denver, CO 80202-1370
+                        
+                        Dear Ed,
+                        I am writing you in the Face of very tragic circumstances, another mentally ill prisoner at Adx has taken his own life. I had the unfortunate luck of witnessing this tragedy unfold.
+                        On Saturday, September the 7th at 8:00 p.m in E-Unit on B-Range Upper in Cell #403 a white mentally ill guy apparently comitted suicide. I am in E-B Range upper cell #402" 
+                        style="max-width:200px;cursor:pointer;">
+                        
+                        <img class="excerpt-thumb" src="../images/prison/lived_experiences/letter2.webp" alt="Excerpt thumbnail" data-title="Unknown - The Marshall Project" data-trans="We live with toxic cancerous mold, heavy dust, and painted over rust in buildings that have been condemned for at least 20 years." style="max-width:200px;cursor:pointer;">
+                       
+                        <img class="excerpt-thumb" src="../images/prison/lived_experiences/letter3.webp" alt="Excerpt thumbnail" data-title="Unknown - The Marshall Project" data-trans="We know prison ain't meant to be a camp for criminals, but we are stll human beings, and deserve to be treated better." style="max-width:200px;cursor:pointer;">
+                        
+                        <img class="excerpt-thumb" src="../images/prison/lived_experiences/letter4.jpg" alt="Excerpt thumbnail" data-title="Unknown - 1 of 12,000 Prisoner Letters" data-trans="So as of today, 8-26-10, not only did I invite Jesus into my life, I sincerely asked Him to fly the plane. I also spent almost an hour in prayer. I mention that because my prayers usually last less than 5 minutes and I struggle with that. I felt, well, clean afterwards.
+
+                        I already thanked God, and thanked Him for you and your book. But I want to thank you also. I have several times told God that I would like to be able to bring at least one person to Him in my life. I don’t know what your total is sir, but add one more soul to it for me. You have my heartfelt thanks and my hope that you keep increasing that total." style="max-width:200px;cursor:pointer;">
+
+                        <p>These experiences rarely appear in official records. Administrative files document behavior and discipline, but they seldom capture the emotional realities of living in a controlled environment. Personal letters, reflections, and testimonies often become the only traces of these lived experiences.</p>
+                        <p>Looking at prisons through these personal accounts reveals a different archive of incarceration, one made not of reports and classifications, but of everyday attempts to preserve identity, relationships, and dignity within restrictive conditions.</p>
+                    </div>
+                </details>
+                <details id="containmentcontrol-details">
+                    <summary>Containment & Control</summary>
+                    <div class="subpage-section" id="containmentcontrol">
+                        <p>Prisons are designed as systems of containment. Their architecture, surveillance technologies, and administrative procedures work together to regulate movement and behavior. Walls, checkpoints, and monitored corridors create environments where visibility and control are constant features of daily life.</p>
+                        <div class="primary-excerpts-text" id="resistance-quote-list">
+                            <blockquote class="excerpt-quote">
+                                <p>"During my own career as an antiprison activist I have seen the population of U.S. prison increase with such rapidity that many people in 
+                                    Black, Latino, and Native American communitites now have a far greater change at going to prison than of getting a decent education."</p>
+                                <cite>Angela Davis, Are Prisons Obsolete? (2003)</cite>
+                            </blockquote>
+                            <blockquote class="excerpt-quote">
+                                <p>"The question of whether prisons have become an obsolete institution has become espescially urgent in light of the fact that more than two million people (out of
+                                    a world total of nine million) now inhabit U.S. prisons, jails, youth facilities, and immigration detention centers."</p>
+                                <cite>Angela Davis, Are Prisons Obsolete? (2003)</cite>
+                            </blockquote> 
+                        </div>
+                        
+                        <p>Design plays an important role in this system. Correctional facilities are often planned to maximize observation and limit unsupervised interaction, reinforcing authority through spatial organization. Cells, control rooms, and circulation paths become tools for maintaining order and enforcing institutional boundaries.</p>
+                        
+                        <div class="image-gallery">
+                            <!-- Add images here -->
+                            <a href="https://www.latimes.com/opinion/story/2025-12-22/prison-conditions-hbo-the-alabama-solution-immigration-enforcement" target="_blank" rel="noopener">
+                                <img src="../images/prison/containment_control/image1.webp" alt="Image 1">
+                            </a>
+                            <a href="https://aeon.co/essays/this-is-what-solitary-confinement-does-to-the-brain" target="_blank" rel="noopener">
+                                <img src="../images/prison/containment_control/image2.webp" alt="Image 2">
+                            </a>
+                            <a href="https://www.al.com/news/2020/04/alabama-prison-systems-covid-19-plan-anticipates-widespread-infection-deaths-national-guard-intervention.html" target="_blank" rel="noopener">
+                                <img src="../images/prison/containment_control/image3.avif" alt="Image 3">
+                            </a>
+                            <a href="https://www.balfourbeatty.com/what-we-do/projects/kern-county-justice-facility-california/" target="_blank" rel="noopener">
+                                <img src="../images/prison/containment_control/image4.webp" alt="Image 4">
+                            </a>
+                            <a href="https://www.aclu.org/publications/captive-labor-exploitation-incarcerated-workers" target="_blank" rel="noopener">
+                                <img src="../images/prison/containment_control/image5.png" alt="Image 5">
+                            </a>
+                            <a href="https://news.uchicago.edu/story/us-prison-labor-programs-violate-fundamental-human-rights-new-report-finds" target="_blank" rel="noopener">
+                                <img src="../images/prison/containment_control/image6.jpg" alt="Image 6">
+                            </a>
+                            <a href="https://time.com/3896825/attica-1971-meyer-report-release/" target="_blank" rel="noopener">
+                                <img src="../images/prison/containment_control/image7.webp" alt="Image 7">
+                            </a>
+
+                        </div>
+                       
+                        <p>Beyond physical structures, classification systems also regulate how individuals move through the prison environment. Housing assignments, security levels, and disciplinary records determine access to programs, privileges, and social interaction.</p>
+                        <p>Through these combined mechanisms, architecture, surveillance, and bureaucracy, prisons operate as highly controlled systems where behavior is monitored and recorded, shaping how individuals exist within the institution.</p>
+                    </div>
+                </details>
+                <details id="erasuresilencing-details">
+                    <summary>Erasure & Silencing</summary>
+                    <div class="subpage-section" id="erasuresilencing">
+                        <p>Prisons generate large volumes of documentation, yet many personal experiences remain absent from these records. Institutional files tend to focus on measurable events such as disciplinary actions, transfers, or legal proceedings, leaving little space for the emotional and social realities of incarceration.</p>
+                        <p>Silencing often occurs through omission rather than direct censorship. The daily struggles of confinement, loneliness, uncertainty, fear, and attempts to maintain relationships, are rarely preserved within official archives. As a result, institutional records can present a simplified version of prison life.</p>
+                        <p>At the same time, many incarcerated people create their own forms of documentation through letters, journals, testimonies, and especially music. Whether it be through sharing songs that reflect daily life inside or a way to express and communicate emotions, identity, and the realities records often overlook.</p>
+
+                        <div class="audio-embeds">
+                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4su143nXu1B0GDxD8teWef?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                        
+                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6h3YJ05BovN1Pgk145J3r9?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>               
+                        </div>
+                        <p>Songs like <em>"Chain Gang"</em> by Sam Cooke and <em>"Mama Tried"</em> by Merle Haggard capture different perspectives on incarceration. "Chain Gang" reflects the forced labor and harsh conditions historically experienced by imprisoned workers, while "Mama Tried" tells a personal story of regret and responsibility shaped by imprisonment. Together, they demonstrate how music can communicate both the systemic realities and the emotional experiences surrounding incarceration.</p>
+                       
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P1_juOhI4_E?si=Hbk1TO8SbmbTD_Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>Recognizing these missing voices highlights how archives are shaped by power. What is preserved reflects institutional priorities, while many human experiences remain undocumented or marginalized within this historical record.</p>
+                    </div>
+                </details>
+                <details id="rationalizationofpunishment-details">
+                    <summary>Rationalization of Punishment</summary>
+                    <div class="subpage-section" id="rationalizationofpunishment">
+                        <p>Prisons are often justified through narratives of justice, deterrence, and public safety. Legal systems frame incarceration as a rational response to crime, presenting punishment as a necessary tool for maintaining social order. This rationalization relies on the idea that prisons serve a clear purpose in rehabilitating individuals or protecting society.</p>
+                        <p>However, the reality of incarceration often contradicts these narratives. Many prisons struggle with overcrowding, underfunding, and inadequate resources, leading to conditions that can exacerbate harm rather than promote rehabilitation. The disconnect between the idealized purpose of prisons and the lived realities of confinement raises important questions about the effectiveness and ethics of incarceration as a system of punishment.</p>
+                        <p>The experience of imprisonment can have profound psychological consequences. Extended confinement, separation from family, and limited personal autonomy can lead to emotional distress, anxiety, depression, and long-term difficulties with trust and social connection.</p>
+
+                        <div class="video-embed">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8MyJ1zvOYHw?si=VNnKGi91vkMIBJMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <p>These effects often become most visible when people try to return to life outside prison. The habits developed during incarceration, such as constant alertness or emotional distance, can make everyday relationships and routines difficult. At the same time, factors like money, social status, and access to resources strongly influence how someone is treated after release, affecting opportunities for housing, employment, and support.</p>
+                        <p>Understanding punishment through this broader lens reveals a tension between the official justification of incarceration and its lived consequences. While institutions present imprisonment as a controlled and orderly system, the human impacts of confinement often extend far beyond the prison walls.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <div class="continue-next-section">
+        <a class="continue-button" href="../camps/camps.html">CONTINUE TO NEXT SECTION</a>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="site-footer">
+        <div class="footer-left">
+            <div class="footer-title" style="color: rgba(240, 150, 4, 0.85);"><strong>UNFIT FOR THE ARCHIVES</strong></div>
+            <br>
+            <div class="tldr">Investigates how institutional systems, technology, and archives shape memory, power, and cultural authority.</div>
+            <div class="tldr">The project looks into the ways that formal systems like books, prisons, camps, bureaucratic records, and</div>
+            <div class="tldr">technological infrastructures are used to create, preserve, suppress, or erase histories.</div>
+            <br>
+        </div>
+        <div class="footer-right">
+            <br>
+            <button class="footer-link" data-modal="about">About</button>
+            <button class="footer-link" data-modal="bibliography">Bibliography</button>
+            <button class="footer-link" data-modal="ethical">Ethical note</button>
+        </div>
+    </footer>
+
+<!--MODALS-->
+    <div id="modalOverlay" class="modal-overlay hidden" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <h3 id="modalTitle">Placeholder Title</h3>
+            <div id="modalBody">This is placeholder content. Replace with real text using js.</div>
+        </div>
+    </div>
+</body>
+</html>
