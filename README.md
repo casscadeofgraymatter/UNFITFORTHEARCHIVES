@@ -130,5 +130,3 @@ The project is grounded in critical archival theory and critical theory more bro
 Created as a capstone project for the **Digital Narrative & Interactive Design (DNID)** program, 2026. This project bridges archival studies, critical theory, and interactive web design & development to create an educational platform.
 
 ---
-
-*To preserve is also to exclude. This project exists in the gap between the two.*
